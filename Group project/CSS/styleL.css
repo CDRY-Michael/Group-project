@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'dense_lettersregular';
+   
+    src: url('assets\Font\denseletters-nrgdo-webfont.woff2') format(woff2),
+          url('assets\Font\denseletters-nrgdo-webfont.woff') format(woff);
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    
+  }
+
+  img{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+  }
+  h1 {
+    font-family: 'dense_lettersregular';
+    font-size: 36px;
+    margin-top: 0;
+    font-weight: 600;
+    text-align:center;
+  }
+  form {
+    max-width: 400px;
+    border-radius: 5px;
+        padding: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+  
+    border: 1px solid #ccc;
+   
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background-color: violet;
+  }
+  #signup-link {
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+      }
+      #signup-link:hover{
+        text-decoration: underline white;
+      }
